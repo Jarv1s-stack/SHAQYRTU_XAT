@@ -544,17 +544,18 @@
             right: 22px;
             bottom: 22px;
             z-index: 50;
-            width: 54px;
+            width: 110px;
             height: 54px;
-            border-radius: 50%;
+            border-radius: 5%;
             background: var(--white);
-            border: 1.5px solid var(--gold-light);
+            border: 4px solid var(--gold-light);
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
             transition: transform .3s ease, border-color .3s ease;
+            gap: 10px;
         }
         #music-toggle:hover {
             transform: scale(1.06);
@@ -792,6 +793,7 @@
 
 <!-- ============ MUSIC TOGGLE ============ -->
 <button id="music-toggle" aria-label="Музыканы қосу/өшіру">
+    <div>Музыка</div>
     <div class="bars">
         <span class="bar b1"></span>
         <span class="bar b2"></span>
